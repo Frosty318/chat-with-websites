@@ -14,7 +14,7 @@ from langchain.chains.combine_documents import create_stuff_documents_chain
 
 load_dotenv()
 
-def get_vectorstore_from_url(url):
+def get_vectorstore_from_url(url):https://cloud.qdrant.io/accounts/4e14a844-3713-4bc1-b317-01a38d809dc9/clusters/1ea75b8e-b250-4023-be89-ef9cad973d56/configs
     # get the text in document form
     loader = WebBaseLoader(url)
     document = loader.load()
